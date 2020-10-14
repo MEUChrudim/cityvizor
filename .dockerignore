@@ -4,6 +4,13 @@ client/dist
 server/node_modules
 server/dist
 
-docs
-demo
+.git
+.github
 data
+database
+demo
+nginx
+docs
+reference
+server-kotlin
+

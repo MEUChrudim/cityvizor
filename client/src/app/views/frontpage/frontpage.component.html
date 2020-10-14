@@ -45,20 +45,19 @@
 		</svg>
 	</div>
 </header>
-
 <section id="entities">
 	<div class="page container">
 
 		<div class="row">
 
 			<div class="col-md-6">
-				<h2 class="text-center">Rozpočet a plnění vlastního hl. m. Prahy</h2>
+				<h2 class="text-center">Rozpočet a plnění města Chrudim</h2>
 				<profile-expenditures-widget *ngIf="mainProfile && mainProfileLatestYear" [profileId]="mainProfile!.id" [year]="mainProfileLatestYear" (openGroup)="openGroup($event)"></profile-expenditures-widget>
 				<p *ngIf="mainProfile === null" class="text-center">Není zvolen hlavní profil.</p>
 			</div>
 
 			<div class="col-md-6">
-				<h2 class="text-center">Rozpočet a plnění městských části</h2>
+				<h2 class="text-center">Rozpočet a plnění příspěvkových a podřízených organizací a společností.</h2>
 				<profile-search></profile-search>
 			</div>
 
@@ -66,8 +65,8 @@
 
 		<div class="row">
 			<h2>Co je CityVizor?</h2>
-			<p>Cityvizor je aplikace, která přehledným způsobem vizualizuje rozpočet a plnění hlavního města Prahy s vazbou na konkrétní dodavatele. Naleznete zde také provázání na úřední desky a registr smluv.</p>
-			<p>Pro zapojení vaší městské části, kontaktujte provozovatele pražské instance CityVizoru na adrese <a href="mailto:cityvizor@operatorict.cz">cityvizor@operatorict.cz</a>.</p>
+			<p>Cityvizor je aplikace, která přehledným způsobem vizualizuje rozpočet a plnění města Chrudims vazbou na konkrétní dodavatele. Naleznete zde také provázání na úřední desky a registr smluv.</p>
+			<p>Aplikace také zobrazuje rozpočty a plnění příspěvkových organizaci či podřízených společností.</p>
 		</div>
 
 	</div>

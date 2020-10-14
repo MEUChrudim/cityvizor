@@ -8,7 +8,7 @@ module.exports = {
   port: 3000,
   host: "0.0.0.0",
 
-  url: "http://localhost:4200",
+  //url: "http://localhost:4200",
 
   apiRoot: "/api",
 
@@ -19,9 +19,9 @@ module.exports = {
 
   database: {
     client: 'pg',
-    host: '0.0.0.0',
-    user: 'cityvizor',
-    password: 'cityvizor',
+    host: '127.0.0.1',
+    user: 'cityvizorchr',
+    password: 'KinthAvquiv6',
     database: 'cityvizor'
   },
 
@@ -29,7 +29,7 @@ module.exports = {
   corsOrigin: "http://localhost:4200",
 
   keys: {
-    edesky: { api_key: null },
+    edesky: { api_key: "fQefcXDFUlgLslnqVa1xnSKQFIseNOM1" },
     jwt: { secret: "secret" }
   }
 };

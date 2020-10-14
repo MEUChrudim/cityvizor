@@ -3,9 +3,9 @@
 <!-- MAPA -->
 <!-- TODO: použít mapku z http://katalog-mc.iprpraha.cz/ -->
 <div id="map">
-  <img src="assets/img/mapa.svg">
+<!--   <img src="assets/img/mapa.svg">
 
-  <!-- MĚSTA -->
+  <!-- MĚSTA -x->
   <div class="mesta">
     <ng-container *ngFor="let profile of profiles">
       <div *ngIf="profile.gpsX && profile.gpsY" class="mesto" [class.pending]="profile.status === 'pending'" [class.hover]="hoverProfile === profile" [ngStyle]="gps2css(profile.gpsX, profile.gpsY)" (click)="openProfile(profile)" (mouseover)="hoverProfile=profile" (mouseout)="hoverProfile=null">
@@ -13,7 +13,7 @@
         <span class="gps">{{[profile.gpsX, profile.gpsY] | gps2string}}</span>
       </div>
     </ng-container>
-  </div>
+  </div>  -->
 </div>			
 
 <!-- ABECEDNE -->
